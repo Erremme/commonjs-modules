@@ -7,8 +7,9 @@ function createHobbies(hobbyOne, hobbyTwo, hobbyThree){
             hobbyThree = " Watching Movies"];
 
   }
+    
+  module.exports = {createHobbies};
+  console.log(createHobbies());
+ 
 
-  module.export = createHobbies;
-
-  const hobby = createHobbies()
-  console.log(hobby)
+  

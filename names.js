@@ -3,10 +3,12 @@
 
 
 function createNames( firstName , lastName){
-  return firstName = "Raffaele " , 
-          lastName = "Molinaro";
+  return {firstName : "Raffaele " , 
+          lastName : "Molinaro"};
 }
 
+console.log(createNames())
+module.exports = { createNames} ;
 
 
-module.exports = createNames;
+
